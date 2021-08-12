@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <style>
+        h1 {
+            /* Centralizar o título */
+            text-align: center;
+            /* Muda a cor do título */
+            color: gray;
+            /* Muda a cor de fundo do título */
+            background-color: rgb(233, 229, 229);
+        } 
+        h2  { 
+            text-align: center;
+            color:blue;
+        } 
+        mark { 
+            /* Muda a cor do fundo do marca-texto */
+            background-color: aquamarine; 
+        }
+        p  {
+            font-family: Calibri, Arial, sans-serif;
+        }
+        p.direita { 
+            /* <p class="direita"> */
+            text-align: right; /*Alinhado à direita */
+        }
+        address {
+            text-align: center;
+        } 
+        del {
+            color:gray;
+        }    
+        body { 
+            background-color: rgb(177, 213, 235);
+        } 
+    </style>
+</head>
+<body>
+    <h1> Formatação de textos </h1>
+    <h2>A história de Orkutilson</h2>
+    
+    <p class="direita">Baseado em fatos reais.</p>
+<!--
+    Negrito: <b> texto </b>
+    Itálico: <i> texto </i>
+-->
+
+    <p>Orkutilson era um adolescente comum. Estudava em uma <b>escola estadual</b> e sua matéria preferida era <i>Matemática</i>.</p>
+
+<!--
+    TAGS SEMÂNTICAS
+    Negrito: <strong> texto </strong> (forte)
+    Itálico: <em> texto </em> (emphasis - ênfase)
+-->
+
+    <p>Orkutilson era um adolescente comum. Estudava em uma <strong>escola estadual</strong> e sua matéria preferida era <em>Matemática</em>.</p>
+
+<!--
+    Grifado: <mark> texto </mark> (amarelo por padrão)
+    Riscado: <del> texto </del> (risca um trecho)
+    Inserido/Sublinhado: <ins> texto </ins> 
+-->
+
+    <p>Ele também gostava de usar a caneta marca-texto para <mark>destacar os trechos mais importantes</mark>.No entanto, sua professora achava Orkutilson <del>meio lerdo</del> <ins>não muito inteligente</ins>, já que sempre tinha dificuldades nas provas.</p>
+
+<!--
+    Subscrito: <sub> texto </sub> (texto subscrito, abaixo)
+    Sobrescrito: <sup> texto </sup> (texto sobrescrito, acima)
+    Citação: <quote> "texto" </quote> (citação no meio de um parágrafo) -> TAG SEMÂNTICA <-
+-->
+
+    <p>Orkutilson também gostava de fórmulas. Suas preferidas eram H<sub>2</sub>O e E=mc<sup>2</sup>. Sua frase favorita era: <quote>"Penso, logo existo". (Descartes)</quote></p>
+
+<!--
+    Bloco de citação: <blockquote> texto </blockquote>
+-->
+
+    <p>Seu trecho de letra de música favorito era:</p>
+    <blockquote>
+        "Há tantos mundos diferentes,<br>
+        tantos sóis diferentes.<br>
+        E nós temos apenas um mundo, <br>
+        Mas vivemos em mundos diferentes." <br>
+        Dire Straits, <em>Brothers in Arms</em>)
+    </blockquote>
+
+<!--
+    Abreviaturas: <abbr> texto </abbr>
+    Códigos de programação: <code> texto código </code> (identifica códigos de progração e colocam em uma fonte diferente)
+    Sinais de > e <:    &lt; -> sinal de <
+                        &gt; => sinal de >
+    Códigos que começam com & e terminam com ; são chamados de HTML ENTITIES.
+
+-->
+
+    <p>Nas horas vagas, Orkutilson era um membro ativo da <abbr title="Associação dos Moradores do Bairro do Limão">ASMOBALI</abbr> e estudava <abbr title="Hypertext Markup Language">HTML</abbr>. Suas tags preferidas eram <code>&lt;mark&gt;</code> e <code>&lt;blockquote&gt;</code>.</p>
+
+<!--
+    Identificação de endereço: <address> texto de contato </address> (é uma tag semântica, que ajuda programadores e o Google, por exemplo, a localizar informações na página)
+-->
+    <p>Entre em contato com Orkutilson:</p>
+    <address>
+        Rua do Sobe e Desce, 33 -  Bairro do Limão<br>
+        Telefone: (16) 98765-4321<br>
+        E=mail: orkutilson@hotmail.com
+        </address>
+
+    <p class="direita"><em>(<del>Autor desconhecido</del> <ins>Fausto Golçalves Cintra</ins> - Professor de Desenvolvimento Web I na Fatec Franca)</em></p>
+
+</body>
+</html>
