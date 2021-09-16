@@ -1,0 +1,48 @@
+h1
+{
+    text-align: center;
+}
+/* Trocando a família de fontes de todos os elementos*/
+*
+{
+    font-family: Calibri, Arial, sans;
+}
+table
+{
+    /* Retirar o espaçamento entre as bordas das células */
+    border-collapse: collapse;
+    /* Centralizando horizontalmente a tabela na página 
+        0 -> margem esquerda e direita
+        auto -> margem esquerda e direita (autocalculada) */ 
+    margin: 0 auto;
+}    
+td, th 
+{   
+    /* Borda */          
+    border: 1px solid navy;
+    /* Espaçamento interno da célula */
+    padding: 6px;
+}
+th 
+{
+    /* Cor de fundo para as células cabeçalho */
+    background-color: aquamarine;
+}
+.dir 
+{
+    /* Alinha o texto à direita */ 
+    text-align: right;
+}  
+.cen
+{
+    /* Alinha o texto ao centro */
+    text-align: center;
+}
+tfoot tr 
+{
+    /* Coloca o texto em negrito */
+    font-weight: bold;
+    /* Coloca o texto em itálico */ 
+    font-style: italic;
+    background-color: lightgray;
+}   

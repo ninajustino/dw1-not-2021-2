@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araras</title>
+</head>
+<body>
+    <picture>
+    
+        <!--
+            Quando a tela tiver até 630px de largura, será carregada/exibida a imagem de 300px
+        -->
+        <source media="(max-width: 630px)" srcset="img/araras-p.jpg" type="image/jpeg">
+        <!--
+            Quando a tela tiver mais de 630px de largura e menos de 1030px, será carregada/exibida a imagem de 600px
+        -->
+        <source media="(max-width: 1030px)" srcset="img/araras-m.jpg" type="image/jpeg">
+        <!--
+            Quando a tela tiver mais de 1030px, será carregada a imagem de 1000px ("DEFAULT" -> imagem original)
+        -->
+        <img src="img/araras-g.jpg"
+        alt="Imagem de 1000px">
+
+        <p>
+            Retorne para a Galeria em <a href="https://5501-peach-locust-zx3pv134.ws-us15.gitpod.io/ex02/index.html" rel="external dofollow">Galeria de imagens e vídeos</a> e saiba mais.
+        </p>
+    
+    </picture>
+</body>
+</html>
