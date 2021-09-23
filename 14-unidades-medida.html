@@ -19,8 +19,17 @@
                 2) Unidades relativas
                 - % (porcentagem): sempre em relação ao tamanho do pai
                 - em: usada para fontes. Significa 100% do tamanho da fonte do elemento pai. 1em = mesmo tamanho, 0.5em = metade
+                - rem: usado para fontes. Significa 100% do tamanho da fonte configurado para o elemento <html> (elemento raiz)
             */
-
+            html 
+            {
+                /* Definindo o tamanho da fonte do elemento raiz */ 
+                font-size: 20px;
+            } 
+            body 
+            {
+                font-size: 15px;
+            } 
             #box1  
             {
                 background-color: aliceblue;
@@ -38,6 +47,13 @@
                 width: 6cm;
                 height: 20mm;
             } 
+            #box3
+            {
+                background-color: coral;
+                border: 3px solid brown;
+                font-size: 1.5rem; /* 150% do tamanho da fonte do elemento raiz */
+            } 
+
             #pai1 
             {
                 background-color: yellowgreen;
@@ -55,7 +71,11 @@
                 height: 70%; /* relativa à altura do pai */
                 font-size: 0.5em; /* 50% do tamanho da fonte do pai */
             }
-
+            #filho2
+            {
+            
+            }
+        
         </style>
 </head>
 <body>
@@ -72,7 +92,14 @@
         <div id="filho1">
             Elemento filho
         </div>
+        <div id="filho2">
+            Elemento filho
+        </div>
+    </div>
 
+    <div id="box3">
+        Texto
+        <p id=
     </div>
 </body>
 </html>
